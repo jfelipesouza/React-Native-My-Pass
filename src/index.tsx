@@ -1,16 +1,16 @@
 import React from 'react';
-import {StatusBar} from 'react-native';
 import {MainNavigationContainer} from './routes';
+import {StatusBar} from 'react-native';
 
 const MyApp: React.FC = () => {
   return (
     <>
+      <MainNavigationContainer />
       <StatusBar
         backgroundColor={'transparent'}
         translucent
         barStyle={'light-content'}
       />
-      <MainNavigationContainer />
     </>
   );
 };
