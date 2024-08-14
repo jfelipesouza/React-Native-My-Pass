@@ -47,7 +47,7 @@ export const HomeHeaderComponent: React.FC<HeaderProps> = ({
       className={
         'flex flex-col justify-end h-min-1/6 px-2 pb-6 pt-10 gap-y-2 bg-violet-700'
       }>
-      <Text className="font-bold text-white text-lg">
+      <Text className="font-bold text-white text-xl">
         Bem vindo Felipe, {saudacao}!
       </Text>
       <View className={'flex-row  justify-between items-center '}>
